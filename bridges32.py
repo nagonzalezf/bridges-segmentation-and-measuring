@@ -214,3 +214,5 @@ cv.imshow('Imagen refinada', img_copy_32)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# https://github.com/nagonzalezf/

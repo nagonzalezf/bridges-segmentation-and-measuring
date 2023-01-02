@@ -205,12 +205,13 @@ print(f'The width of the bridge is {width_pixels_32} pixels equal to {width_mete
 print(f'The approximate area of the bridge is {area_pixels_32} square pixels equal to {area_meters_32} square meters.')
 print(f'The distance between the coordinate point ({px}, {py}) and the center of the bridge is {distance_pixels_32} pixels equal to {distance_meters_32} meters.')
 
-#cv.imshow('Imagen Original', img)
-#cv.imshow('Contornos Canny', canny)
-#cv.imshow('Imagen segmentada', segmentada)
-#cv.imshow('Imagen encerrada', img_copy_3)
-#cv.imshow('Imagen procesada', img_copy)
-cv.imshow('Imagen refinada', img_copy_32)
+#cv.imshow('Original Image', img)
+#cv.imshow('Canny Contours', canny)
+#cv.imshow('Segmented Image', segmented)
+#cv.imshow('Processed Image', img_copy)
+cv.imshow('Refined Image', img_copy_32)
 
 cv.waitKey(0)
 cv.destroyAllWindows()
+
+# https://github.com/nagonzalezf/

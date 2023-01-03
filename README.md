@@ -109,7 +109,7 @@ To apply the model to another image in the dataset, it is necessary to modify so
 
 # Future Work & Community Contributions
 
-The current model opens the way to a series of diverse possible paths. It can be considered a starting point for the preprocessing of detection models based on convolution networks or it can be reformulated in such a way that it has an automated performance like a machine learning algorithm.
+The current model provides a foundation for a variety of potential paths. It can be considered a starting point for preprocessing detection models based on convolutional networks or it can be reformulated as an automated machine learning algorithm.
 
 ## Code Optimization
 

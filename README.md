@@ -26,15 +26,15 @@ The goal of this study is to develop a model using algorithms and functions that
 
 # Proposed Method
 
-  * 1.- Edge detection
+1. Edge detection
 
-  * 2.- Segmentation of the bridge
+2. Segmentation of the bridge
 
-  * 3.- Extraction of the contour of the bridge
+3. Extraction of the contour of the bridge
 
-  * 4.- Extraction of geometric properties from the contour
+4. Extraction of geometric properties from the contour
 
-  * 5.- Calculation of measurements
+5. Calculation of measurements
 
 ## 1.- Edge Detection
 

@@ -141,4 +141,4 @@ The parameters that present the most difficulty for this task are the hysteresis
 
 * Tril & Triu Parameters
 
-  To eliminate the need to manually determine these parameters, It may be useful to use some of these morphological operations to improve the processing. For example, erosion can be used to remove noise or dilation can be used to connect parts of an object that have been separated by an edge detector.
+  To eliminate the need to manually determine these parameters, it may be useful to use morphological operations to improve the processing. For example, erosion can be used to remove noise or dilation can be used to connect parts of an object that have been separated by an edge detector.

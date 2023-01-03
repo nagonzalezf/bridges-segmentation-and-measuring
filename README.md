@@ -20,6 +20,6 @@ In this repository, a method for bridge detection in satellite images through op
 
 5.- Calculation of measurements
 
-# *Edge detection
+# 1.- Edge detection
 
 asdasd

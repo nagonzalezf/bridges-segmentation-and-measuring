@@ -1,6 +1,7 @@
 # Bridges32 - A Method for Segmentation & Measuring of Bridges in Satellite Images using OpenCV
 
-![image](readme_images/001.png "Bridges32 Main Image")
+![image](readme_images/001.png)
+<img src="[https://your-image-url.type](https://raw.githubusercontent.com/nagonzalezf/bridges32/main/images/img_001.png)" width="600">
 
 # Abstract
 

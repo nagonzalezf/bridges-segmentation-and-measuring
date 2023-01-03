@@ -8,6 +8,8 @@ Bridge detection in satellite images has strategic significance and practical va
 
 In this repository, a method for segmentation and measurement of bridges in satellite images is proposed. For this, we attempt to develop functions and algorithms that receives RGB images of multiple resolutions and allow filtering processes that selectively highlight or suppress the information contained in it to perform certain measuring tasks. 
 
+# Introduction
+
 # Proposed Method
 
 1.- Edge detection

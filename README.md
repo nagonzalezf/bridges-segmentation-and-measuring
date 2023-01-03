@@ -45,44 +45,51 @@ Then, basic numpy matrix operations were applied, the np.tril() and np.triu() fu
 ![image](readme_images/004.png)
 ![image](readme_images/005.png)
 
-The segmented image is obtained
+The segmented bridge is obtained
 
 ![image](readme_images/006.png)
 
 ## 3.- Contour Extraction
 
-asdasd
+Contour detection functions were applied to the previous image and drawn over the original image so that the bridge is contoured by the edges extracted from the Canny detector implementation.
 
 ![image](readme_images/007.png)
 
 ## 4.- Extraction of Geometric Properties from the Contour
 
-asdasd
+From the segmented image, certain OpenCV functions that bound the bridge horizontally can also be applied, so that a Horizontal Bounding Box (HBB) is created which contains characteristic geometric properties of the bridge.
+In particular, the coordinates of the ends of the bounding box were used to perform some calculations and determine the length of the bridge.
+
+A similar process was then applied to outline the bridge in an oriented manner (OBB).
 
 ![image](readme_images/008.png)
 
 ## 5.- Calculation of Measurements
 
-asdasd
+The coordinates of the ends of the horizontal and vertical bounding boxes provide the necessary information to determine the length and width of the bridge, and therefore its area.
+The coordinates of an arbitrary point can be input by the user in the code as an additional parameter.
+To find the distance between this arbitrary point and the center of the bridge, functions that calculate the centroid of the segmented bridge image can be applied.
+The arbitrary point and the path between it and the center of the bridge can be superimposed on the original image.
 
 ![image](readme_images/009.png)
 
 # Model Calibration
 
-Blablabla...
+A comparison of the results obtained with real data for the bridge showed a model error of 3.11% in terms of length and 13.6% in terms of width. To address this, an additional method called the "mask method" was developed. This method involves increasing the thickness of the contour obtained using the Canny edge detector from 1 pixel to 32 pixels. The same functions and algorithms are then applied to this modified image, resulting in a bridge mask whose edges are artificial, as opposed to the original process.
 
 ![image](readme_images/010.png)
 ![image](readme_images/011.png)
 
 # Final Results
 
-Blablabla
+The error in the new results is significantly smaller, at 0.97% error for the length of the bridge and 4.54% error for the width.
 
 ![image](readme_images/012.png)
 
 # Model Applied to Other Images
 
-Of course...blblabla
+As expected, the current model cannot be directly applied to other images.
+To apply the model to another image in the dataset, it is necessary to modify some key parameters, such as the angle of rotation, the pixels/meter ratio, and the tril & triu parameters.
 
 ![image](readme_images/013.png)
 ![image](readme_images/014.png)

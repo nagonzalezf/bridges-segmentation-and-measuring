@@ -85,6 +85,12 @@ Of course...blblabla
 
 * The model can be applied to images of any resolution, containing bridges of any size and orientation, regardless of background noise such as that found in images of dry rivers or islands.
 
+* The model can also be used to perform measurements on non-bridge objects, such as cars, houses, boats or any infrastructure.
+
 * Mask generation method increases measurement accuracy.
 
-* The code can be applied to different images but requires the user to manually enter the parameters when changing the input image and determining these parameters can be a difficult task.
+* The code can be applied to different images but requires the user to manually enter the parameters when changing the input image and determining these parameters can be a significant time consuming task.
+
+# Future Work & Community Contributions
+
+The current model opens the way to a series of diverse possible paths.

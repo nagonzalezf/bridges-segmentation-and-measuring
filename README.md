@@ -4,9 +4,9 @@
 
 # Abstract
 
-  Bridge detection in satellite images has strategic significance and practical value in areas such as large-scale infrastructure works, urban planning, transportation networks, and military reconnaissance. However, the arbitrary orientation, extreme aspect ratio proportions and variable backgrounds pose great challenges for their detection.
+Bridge detection in satellite images has strategic significance and practical value in areas such as large-scale infrastructure works, urban planning, transportation networks, and military reconnaissance. However, the arbitrary orientation, extreme aspect ratio proportions and variable backgrounds pose great challenges for their detection.
 
-  In this repository, a method for segmentation and measurement of bridges in satellite images is proposed. For this, we attempt to develop functions and algorithms that receives RGB images of multiple resolutions and allow filtering processes that selectively highlight or suppress the information contained in it to perform certain measuring tasks. 
+In this repository, a method for segmentation and measurement of bridges in satellite images is proposed. For this, we attempt to develop functions and algorithms that receives RGB images of multiple resolutions and allow filtering processes that selectively highlight or suppress the information contained in it to perform certain measuring tasks. 
 
 # Introduction
 
@@ -107,6 +107,4 @@ The parameters that present the most difficulty for this task are the hysteresis
 
 * Hysteresis parameters
 
-  asdasdasd
-  asdasd
-  asd
+  Tt may be possible to develop a model that determines the optimal parameters to use in the Canny edge detector. One way to do this would be to train a machine learning model with a set of input images and the expected outputs (the edges detected by Canny with different parameters). Then, the trained model could be used to predict which set of parameters should be used to achieve the best results on new images.

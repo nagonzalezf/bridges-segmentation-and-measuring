@@ -101,10 +101,10 @@ The current code is rudimentary, it could be optimized by implementing functions
 
 ## Model Automation
 
-This is a challenging task. 
+This is a complicated task. To automate the model it is necessary to eliminate the need for the user to manually enter the parameters when switching between images.
 
-* asdasd
-* 
-** asdasdasd
+The parameters that present the most difficulty for this task are the hysteresis parameters of the Canny edge detector, the angle of rotation of the image and the diagonal parameters for tril & triu operations.
 
+* Hysteresis parameters
+asdasdasd
 

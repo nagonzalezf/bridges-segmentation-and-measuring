@@ -6,11 +6,17 @@
 
 Bridge detection in satellite images has strategic significance and practical value in areas such as large-scale infrastructure works, urban planning, transportation networks, and military reconnaissance. However, the arbitrary orientation, extreme aspect ratio proportions and variable backgrounds pose great challenges for their detection.
 
-In this repository, a method for segmentation and measurement of bridges in satellite images is proposed. For this, we attempt to develop functions and algorithms that receives RGB images of multiple resolutions and allow filtering processes that selectively highlight or suppress the information contained in it to perform certain measuring tasks. 
+In this repository, a method for segmentation and measurement of bridges in satellite images without the need of deep learning models implementation is proposed. For this, we attempt to develop functions and algorithms that receives RGB images of multiple resolutions and allow filtering processes that selectively highlight or suppress the information contained in it to perform certain measuring tasks. 
 
 # Introduction
 
-# Proposed Method
+With the increasing development of neural architecture technologies and their strong object detection and image segmentation capabilities, many methods for object detection in satellite images using Deep Learning have been proposed, such as corner and key point prediction models or horizontal line detection models. Some of these methods are specifically focused on detecting bridges over bodies of water and employ advanced neural architectures such as U-net, YOLOv3, Faster-RCNN, and Mask-RCNN.
+
+However, current models have significant inconsistencies. Models for detecting bridges over rivers cannot be applied to images of bridges in urban areas without bodies of water, nor can they be applied to images with dry rivers or rivers of varying tones. Meanwhile, models using "Bounding Boxes" have many residual detections.
+
+The goal of this study is to develop a model using algorithms and functions that combine current techniques such as segmentation, object detection, and bounding boxes to provide a method for detecting bridges under all of the above-mentioned conditions, for images of any resolution, without the need of convolutional neural networks models. This proyect will use a combination of digital image processing techniques, including filtering technologies, functions, and machine learning algorithms in open source Python programming language through OpenCV implementation. Additionally, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to it.
+
+# Proposed Method Stages
 
 1.- Edge detection
 
@@ -24,22 +30,22 @@ In this repository, a method for segmentation and measurement of bridges in sate
 
 ## 1.- Edge Detection
 
-Blablabla
+For this process, the popular Canny edge detection algorithm was implemented, it consists of four processing stages: Noise Reduction, Intensity Gradient, Non-Maximum Suppression Criterion, and Hysteresis Thresholding.
 
 ![image](readme_images/002.png)
 
 ## 2.- Segmentation
 
-Blablabla
+With the edges of the bridge already detected, it is necessary to perform some image refinement to get rid of the junk information. To make the task easier, the first step is to transform the input image into an image of square dimensions.
 
 ![image](readme_images/003.png)
 
-After this...blablabla
+Then, basic numpy matrix operations were applied, the np.tril() and np.triu() functions. In addition, the np.flip() function has been implemented to invert the image when necessary. To apply these functions, the image was rotated so that the bridge was oriented with respect to the main diagonal of the matrix in a parallel or perpendicular manner.
 
 ![image](readme_images/004.png)
 ![image](readme_images/005.png)
 
-Finally we get...blabla
+The segmented image is obtained
 
 ![image](readme_images/006.png)
 

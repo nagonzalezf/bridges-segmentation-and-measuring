@@ -4,7 +4,7 @@ The current model provides a foundation for a variety of potential paths. It can
 
 ## Code Optimization
 
-The current code is rudimentary, it could be optimized by implementing functions or objects in such a way that they perform the same task using fewer lines of code.
+The code is rudimentary, it could be optimized by implementing functions or objects in such a way that they perform the same task using fewer lines of code.
 
 ## Model Automation
 

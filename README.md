@@ -40,7 +40,7 @@ With the edges of the bridge already detected, it is necessary to perform some i
 
 ![image](readme_images/003.png)
 
-Then, basic numpy matrix operations were applied, the np.tril() and np.triu() functions. In addition, the np.flip() function has been implemented to invert the image when necessary. To apply these functions, the image was rotated so that the bridge was oriented with respect to the main diagonal of the matrix in a parallel or perpendicular manner.
+Then, basic numpy matrix operations were applied, the np.tril() and np.triu() functions. To apply these functions, the image was rotated so that the bridge was oriented with respect to the main diagonal of the matrix in a parallel or perpendicular manner. In addition, the np.flip() function has been implemented to invert the image when necessary.
 
 ![image](readme_images/004.png)
 ![image](readme_images/005.png)
@@ -58,6 +58,7 @@ Contour detection functions were applied to the previous image and drawn over th
 ## 4.- Extraction of Geometric Properties from the Contour
 
 From the segmented image, certain OpenCV functions that bound the bridge horizontally can also be applied, so that a Horizontal Bounding Box (HBB) is created which contains characteristic geometric properties of the bridge.
+
 In particular, the coordinates of the ends of the bounding box were used to perform some calculations and determine the length of the bridge.
 
 A similar process was then applied to outline the bridge in an oriented manner (OBB).
@@ -67,9 +68,8 @@ A similar process was then applied to outline the bridge in an oriented manner (
 ## 5.- Calculation of Measurements
 
 The coordinates of the ends of the horizontal and vertical bounding boxes provide the necessary information to determine the length and width of the bridge, and therefore its area.
-The coordinates of an arbitrary point can be input by the user in the code as an additional parameter.
-To find the distance between this arbitrary point and the center of the bridge, functions that calculate the centroid of the segmented bridge image can be applied.
-The arbitrary point and the path between it and the center of the bridge can be superimposed on the original image.
+
+The coordinates of an arbitrary point can be input by the user in the code as an additional parameter. To find the distance between this arbitrary point and the center of the bridge, functions that calculate the centroid of the segmented bridge image can be applied.
 
 ![image](readme_images/009.png)
 
@@ -84,11 +84,14 @@ A comparison of the results obtained with real data for the bridge showed a mode
 
 The error in the new results is significantly smaller, at 0.97% error for the length of the bridge and 4.54% error for the width.
 
+The image shows the horizontal bounding box (HBB) in green, the edges detected by Canny in red, the arbitrary point and its path to the center of the bridge in blue, and the measurements made in yellow.
+
 ![image](readme_images/012.png)
 
 # Model Applied to Other Images
 
 As expected, the current model cannot be directly applied to other images.
+
 To apply the model to another image in the dataset, it is necessary to modify some key parameters, such as the angle of rotation, the pixels/meter ratio, and the tril & triu parameters.
 
 ![image](readme_images/013.png)

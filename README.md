@@ -93,4 +93,8 @@ Of course...blblabla
 
 # Future Work & Community Contributions
 
-The current model opens the way to a series of diverse possible paths.
+The current model opens the way to a series of diverse possible paths. It can be considered a starting point for the preprocessing of detection models based on convolution networks or it can be reformulated in such a way that it has an automated performance like a machine learning algorithm.
+
+## *Code Optimization
+
+The current code is rudimentary, it could be optimized by implementing functions or objects in such a way that they perform the same task using fewer lines of code

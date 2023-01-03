@@ -20,7 +20,7 @@ The goal of this study is to develop a model using algorithms and functions that
 
 | Images  | Metadata |
 | ------------- | ------------- |
-| <img src="images/img_001.png" width="480">  | "Llacolén" bridge \\ intnto1 \ intento2 <br/> asdasd|
+| <img src="images/img_001.png" width="480">  | "Llacolén" bridge<br/>asdasd|
 | <img src="images/img_002.png" width="480">  | lalala  |
 | <img src="images/img_003.png" width="480">  | lalala  |
 

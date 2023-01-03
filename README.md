@@ -67,3 +67,24 @@ Blablabla...
 
 ![image](readme_images/010.png)
 ![image](readme_images/011.png)
+
+# Final Results
+
+Blablabla
+
+![image](readme_images/012.png)
+
+# Model Applied to Other Images
+
+Of course...blblabla
+
+![image](readme_images/013.png)
+![image](readme_images/014.png)
+
+# Conclusions
+
+* The model can be applied to images of any resolution, containing bridges of any size and orientation, regardless of background noise such as that found in images of dry rivers or islands.
+
+* Mask generation method increases measurement accuracy.
+
+* The code can be applied to different images but requires the user to manually enter the parameters when changing the input image and determining these parameters can be a difficult task.

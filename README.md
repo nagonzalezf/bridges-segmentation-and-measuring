@@ -37,9 +37,6 @@ Blablabla
 After this...blablabla
 
 ![image](readme_images/004.png)
-
-After this...blablabla
-
 ![image](readme_images/005.png)
 
 Finally we get...blabla

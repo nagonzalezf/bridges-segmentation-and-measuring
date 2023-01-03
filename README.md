@@ -22,13 +22,13 @@ In this repository, a method for segmentation and measurement of bridges in sate
 
 5.- Calculation of measurements
 
-# 1.- Edge Detection
+## 1.- Edge Detection
 
 Blablabla
 
 ![image](readme_images/002.png)
 
-# 2.- Segmentation
+## 2.- Segmentation
 
 Blablabla
 
@@ -46,18 +46,22 @@ Finally we get...blabla
 
 ![image](readme_images/006.png)
 
-# 3.- Contour Extraction
+## 3.- Contour Extraction
 
 asdasd
 
 ![image](readme_images/007.png)
 
-# 4.- Extraction of geometric properties from the contour
+## 4.- Extraction of Geometric Properties from the Contour
 
 asdasd
 
 ![image](readme_images/008.png)
 
-# 5.- Calculation of measurements
+## 5.- Calculation of Measurements
 
 asdasd
+
+![image](readme_images/009.png)
+
+# Model Calibration

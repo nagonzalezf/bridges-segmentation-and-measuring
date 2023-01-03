@@ -1,6 +1,6 @@
 # Bridges32 - A Method for Segmentation & Measuring of Bridges in Satellite Images using OpenCV
 
-![main image](readme_images/001.png)
+![main image](readme_images/001.png "Optional title")
 
 # Abstract
 
@@ -16,7 +16,11 @@ However, current models have significant inconsistencies. Models for detecting b
 
 The goal of this study is to develop a model using algorithms and functions that combine current techniques such as segmentation, object detection, and bounding boxes to provide a method for detecting bridges under all of the above-mentioned conditions, for images of any resolution, without the need of convolutional neural networks models. This proyect will use a combination of digital image processing techniques, including filtering technologies, functions, and machine learning algorithms in open source Python programming language through OpenCV implementation. Additionally, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to it.
 
-# Proposed Method Stages
+# Dataset Metadata
+
+
+
+# Proposed Method
 
 1.- Edge detection
 

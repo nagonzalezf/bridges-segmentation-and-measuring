@@ -23,3 +23,21 @@ In this repository, a method for bridge detection in satellite images through op
 # 1.- Edge detection
 
 asdasd
+
+![image](readme_images/002.png)
+
+# 2.- Segmentation of the bridge
+
+asdasd
+
+# 3.- Extraction of the contour of the bridge
+
+asdasd
+
+# 4.- Extraction of geometric properties from the contour
+
+asdasd
+
+# 5.- Calculation of measurements
+
+asdasd

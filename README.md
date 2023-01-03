@@ -1,6 +1,6 @@
 # Bridges32 - A Method for Segmentation & Measuring of Bridges in Satellite Images using OpenCV
 
-![image](readme_images/001.png)
+![main image](readme_images/001.png)
 
 # Abstract
 
@@ -48,9 +48,13 @@ Finally we get...blabla
 
 asdasd
 
+![image](readme_images/007.png)
+
 # 4.- Extraction of geometric properties from the contour
 
 asdasd
+
+![image](readme_images/008.png)
 
 # 5.- Calculation of measurements
 

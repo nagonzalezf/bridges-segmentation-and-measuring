@@ -75,7 +75,7 @@ A similar process was then applied to outline the bridge in an oriented manner (
 
 The coordinates of the ends of the horizontal and vertical bounding boxes provide the necessary information to determine the length and width of the bridge, and therefore its area.
 
-The coordinates of an arbitrary point can be input by the user in the code as an additional parameter. To find the distance between this arbitrary point and the center of the bridge, functions that calculate the centroid of the segmented bridge image can be applied.
+The coordinates of an arbitrary point can be input by the user in the code as an additional parameter. To find the distance between this arbitrary point and the center of the bridge, functions that calculate the centroid of the segmented bridge image are applied.
 
 ![image](readme_images/009.png)
 

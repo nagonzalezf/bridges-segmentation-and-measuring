@@ -30,6 +30,8 @@ asdasd
 
 asdasd
 
+![image](readme_images/003.png)
+
 # 3.- Extraction of the contour of the bridge
 
 asdasd

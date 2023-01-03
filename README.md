@@ -20,9 +20,9 @@ The goal of this study is to develop a model using algorithms and functions that
 
 | Images  | Metadata |
 | ------------- | ------------- |
-| <img src="images/img_001.png" width="240">  | Bridge Name: Puente Llacolén <br/> Location: Biobío River, Concepción, Chile <br/> meter/pixel ratio: 1.28 |
-| <img src="images/img_002.png" width="240">  | Bridge Name: Puente Cardenal Raúl Silva Henríquez <br/> Location: Maule River, Constitución, Chile <br/> meter/pixel ratio: 0.68 |
-| <img src="images/img_003.png" width="240">  | Bridge Name: Puente Santa Elvira <br/> Location: Calle-Calle River, Valdivia, Chile <br/> meter/pixel ratio: 0.35 |
+| <img src="images/img_001.png" width="240">  | Bridge Name: Puente Llacolén <br/><br/> Location: Biobío River, Concepción, Chile <br/><br/> meter/pixel ratio: 1.28 |
+| <img src="images/img_002.png" width="240">  | Bridge Name: Puente Cardenal Raúl Silva Henríquez <br/><br/> Location: Maule River, Constitución, Chile <br/><br/> meter/pixel ratio: 0.68 |
+| <img src="images/img_003.png" width="240">  | Bridge Name: Puente Santa Elvira <br/><br/> Location: Calle-Calle River, Valdivia, Chile <br/><br/> meter/pixel ratio: 0.35 |
 
 # Proposed Method
 

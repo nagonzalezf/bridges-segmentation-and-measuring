@@ -114,3 +114,7 @@ The parameters that present the most difficulty for this task are the hysteresis
   This seems to be more manageable. One way to perform image alignment is to use feature-based methods, which identify distinctive features in the images and use them to determine the transformation needed to align the images. Another approach is to use intensity-based methods, which minimize the difference in intensity between the images being aligned.
 
   Once the transformation needed to align the images has been determined, the angle of rotation can be calculated from the transformation matrix. It is also possible to use machine learning techniques, such as a convolutional neural network, to learn the transformation needed to align the images from a training set of aligned images.
+
+* Tril & Triu Parameters
+
+  To eliminate the need to manually determine these parameters, It may be useful to use some of these morphological operations to improve the processing. For example, erosion can be used to remove noise or dilation can be used to connect parts of an object that have been separated by an edge detector.

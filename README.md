@@ -20,21 +20,21 @@ The goal of this study is to develop a model using algorithms and functions that
 
 | Images  | Metadata |
 | ------------- | ------------- |
-| <img src="images/img_001.png" width="480">  | * Llacolén bridge <br/> * asdasd|
-| <img src="images/img_002.png" width="480">  | lalala  |
+| <img src="images/img_001.png" width="480">  | Puente Llacolén <br/> Biobío River <br/> Concepción, Chile <br/> 1.28 meters/pixels |
+| <img src="images/img_002.png" width="480">  | Puente Cardenal Raúl Silva Henríquez <br/>   |
 | <img src="images/img_003.png" width="480">  | lalala  |
 
 # Proposed Method
 
-1.- Edge detection
+  1.- Edge detection
 
-2.- Segmentation of the bridge
+  2.- Segmentation of the bridge
 
-3.- Extraction of the contour of the bridge
+  3.- Extraction of the contour of the bridge
 
-4.- Extraction of geometric properties from the contour
+  4.- Extraction of geometric properties from the contour
 
-5.- Calculation of measurements
+  5.- Calculation of measurements
 
 ## 1.- Edge Detection
 

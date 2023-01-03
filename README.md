@@ -12,10 +12,14 @@ In this repository, a method for bridge detection in satellite images through op
 
 1.- Edge detection
 
-2.- Segmentation and isolation of the bridge
+2.- Segmentation of the bridge
 
-3.- Contouring of the bridge
+3.- Extraction of the contour of the bridge
 
 4.- Extraction of geometric properties from the contour
 
 5.- Calculation of measurements
+
+# *Edge detection
+
+asdasd

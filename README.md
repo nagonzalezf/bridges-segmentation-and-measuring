@@ -18,9 +18,10 @@ The goal of this study is to develop a model using algorithms and functions that
 
 # Dataset Metadata
 
-| <img src="images/img_001.png" width="480"> | asdasdasd, asdasd asd asdasd asdasd |
-| <img src="images/img_002.png" width="480"> | asdasdasdasdhh |
-| <img src="images/img_003.png" width="480"> | asdasdasdkhkhj |
+| Imagenes  | Metadata |
+| ------------- | ------------- |
+| <img src="images/img_001.png" width="480">  | metadata de esa wea  |
+| <img src="images/img_002.png" width="480">  | lalala  |
 
 # Proposed Method
 

@@ -106,5 +106,6 @@ This is a complicated task. To automate the model it is necessary to eliminate t
 The parameters that present the most difficulty for this task are the hysteresis parameters of the Canny edge detector, the angle of rotation of the image and the diagonal parameters for tril & triu operations.
 
 * Hysteresis parameters
+
 asdasdasd
 

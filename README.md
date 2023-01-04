@@ -12,7 +12,7 @@ With the increasing development of neural architecture technologies and their st
 
 However, current models have significant inconsistencies. Models for detecting bridges over rivers cannot be applied to images of bridges in urban areas without bodies of water, nor can they be applied to images with dry rivers or rivers of varying tones. Meanwhile, models using "Bounding Boxes" have many residual detections.
 
-The goal of this study is to develop a model using algorithms and functions that combine current techniques such as segmentation, object detection, and bounding boxes to provide a method for detecting bridges under all of the previously mentioned conditions, for images of any resolution, without the need for convolutional neural network models. This project will utilize a combination of digital image processing techniques, including filtering technologies, functions, and machine learning algorithms in the open source Python programming language using OpenCV implementation. In addition, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to it.
+The goal of this project is to develop a model that combine current techniques such as segmentation, object detection, and bounding boxes to provide a method for detecting bridges under all of the previously mentioned conditions, for images of any resolution, without the need for convolutional neural network models. In addition, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to it.
 
 # Dataset Metadata
 

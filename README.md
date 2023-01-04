@@ -14,7 +14,7 @@ However, current models have significant inconsistencies. Models for detecting b
 
 The goal of this project is to develop a model that combine current techniques such as segmentation, object detection, and bounding boxes to provide a method for detecting bridges under all of the previously mentioned conditions, for images of any resolution, without the need for convolutional neural network models.
 
-In addition, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to it.
+In addition, the model should be able to measure these structures, determining specific characteristics such as length, width, approximate area, and the distance from an arbitrary point to the bridge's centroid.
 
 # Dataset Metadata
 
